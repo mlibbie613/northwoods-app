@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { supabase } from "./supabase";
 
 const PLANS = [
-  { id: "basic", name: "Seasonal Basic", price: 499, period: "/ season", color: "#5a8c52", features: ["Spring open-up checklist", "Fall winterization checklist", "2 maintenance visits/year", "Email support"] },
+  { id: "basic", name: "Seasonal Basic", price: 649, period: "/ season", color: "#5a8c52", features: ["Spring open-up checklist", "Fall winterization checklist", "2 maintenance visits/year", "Email support"] },
   { id: "standard", name: "Standard Care", price: 119, period: "/ month", color: "#2a6ea6", features: ["Everything in Basic", "Monthly property inspections", "Unlimited maintenance requests", "Priority scheduling", "Phone & email support"], popular: true },
   { id: "premium", name: "Premium Concierge", price: 449, period: "/ month", color: "#8b4513", features: ["Everything in Standard", "24/7 emergency response", "Quarterly deep clean", "Vendor coordination", "Dedicated property manager"] },
 ];
